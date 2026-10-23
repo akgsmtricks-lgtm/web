@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700;800&display=swap');
+
+:root {
+    --navy-primary: #071630;
+    --navy-secondary: #0d2249;
+    --navy-dark: #030914;
+    --accent-amber: #d97706;
+    --accent-amber-glow: #f59e0b;
+    --accent-blue: #2563eb;
+    --cyan-glow: #38bdf8;
+    --surface-light: #fcfdfd;
+    --surface-muted: #f8fafc;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--surface-light);
+    color: #1e293b;
+    overflow-x: hidden;
+}
+
+.font-heading {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.font-mono {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+/* Vector Keyframe Animations */
+@keyframes gearSpin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes gearSpinRev {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(-360deg); }
+}
+
+@keyframes aeroFloat {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-5px) rotate(1deg); }
+}
+
+@keyframes pulseBeam {
+    0%, 100% { opacity: 0.35; transform: scaleX(0.85); }
+    50% { opacity: 1; transform: scaleX(1.1); }
+}
+
+@keyframes autoWeld {
+    0%, 100% { transform: rotate(0deg); }
+    50% { transform: rotate(-10deg); }
+}
+
+@keyframes pipeFlow {
+    0% { stroke-dashoffset: 40; }
+    100% { stroke-dashoffset: 0; }
+}
+
+@keyframes bottleMove {
+    0% { transform: translateX(0px); }
+    100% { transform: translateX(20px); }
+}
+
+.anim-gear {
+    transform-origin: 85px 85px;
+    animation: gearSpin 12s linear infinite;
+}
+
+.anim-gear-rev {
+    transform-origin: 145px 55px;
+    animation: gearSpinRev 7s linear infinite;
+}
+
+.anim-aero {
+    animation: aeroFloat 4s ease-in-out infinite;
+    transform-origin: center;
+}
+
+.anim-beam {
+    animation: pulseBeam 2s ease-in-out infinite;
+    transform-origin: center;
+}
+
+.anim-robot {
+    transform-origin: 148px 38px;
+    animation: autoWeld 3s ease-in-out infinite;
+}
+
+.anim-flow {
+    stroke-dasharray: 8 6;
+    animation: pipeFlow 1.5s linear infinite;
+}
+
+.anim-conveyor {
+    animation: bottleMove 2s linear infinite;
+}

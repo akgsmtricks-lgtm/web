@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turnkey Engineering Solutions — ApexMech</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navyPrimary: '#071630',
+                        navySecondary: '#0d2249',
+                        accentAmber: '#d97706',
+                        accentBlue: '#2563eb',
+                        surfaceMuted: '#f8fafc'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#fcfdfd] text-slate-800 antialiased selection:bg-amber-600 selection:text-white pt-28">
+
+    <div class="bg-navyPrimary border-b border-navySecondary text-slate-300 text-[11px] font-mono py-1.5 px-6 fixed top-0 left-0 right-0 z-50 flex justify-between items-center backdrop-blur-md">
+        <div class="flex items-center space-x-4">
+            <span class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>MECHANICAL DESIGN SOLUTIONS</span>
+            <span class="hidden sm:inline text-slate-400">| HYDERABAD DESIGN CENTER</span>
+        </div>
+        <span class="text-amber-400 font-semibold tracking-wide hidden sm:inline">OFFICE: +91 8019785587</span>
+    </div>
+
+    <header class="fixed top-[32px] left-0 right-0 z-40 bg-navyPrimary/95 backdrop-blur-md border-b border-navySecondary shadow-md">
+        <div class="max-w-[1540px] mx-auto px-4 lg:px-6 h-20 flex items-center justify-between gap-3">
+            <a href="index.html" class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-amber-500 to-amber-700 flex items-center justify-center text-white font-bold text-base shadow-md">A</div>
+                <div class="flex flex-col">
+                    <span class="text-xl font-bold tracking-tight text-white font-heading">APEX<span class="text-amber-500">MECH</span></span>
+                    <span class="text-[9px] uppercase tracking-widest text-slate-400 font-mono">Engineering Design Studio</span>
+                </div>
+            </a>
+            <nav class="hidden xl:flex items-center space-x-1 2xl:space-x-3 text-[13px] font-medium text-slate-200">
+                <a href="index.html" class="px-2.5 py-2 hover:text-amber-400 transition">Home</a>
+                <a href="about.html" class="px-2.5 py-2 hover:text-amber-400 transition">About Us</a>
+                <a href="services.html" class="px-2.5 py-2 hover:text-amber-400 transition">Services</a>
+                <a href="why-choose-us.html" class="px-2.5 py-2 hover:text-amber-400 transition">Why Choose Us</a>
+                <a href="industries.html" class="px-2.5 py-2 hover:text-amber-400 transition">Industries</a>
+                <a href="projects.html" class="px-2.5 py-2 hover:text-amber-400 transition">Projects</a>
+                <a href="solutions.html" class="px-2.5 py-2 text-amber-400 font-semibold">Solutions</a>
+                <a href="training.html" class="px-2.5 py-2 text-amber-300 hover:text-amber-200 transition font-medium">CAD Academy</a>
+                <a href="careers.html" class="px-2.5 py-2 hover:text-amber-400 transition">Careers</a>
+                <a href="contact.html" class="px-2.5 py-2 hover:text-amber-400 transition">Contact</a>
+            </nav>
+            <a href="index.html#inquiry" class="hidden sm:inline-flex px-4 py-2.5 text-xs font-semibold rounded-lg bg-amber-600 text-white hover:bg-amber-500 transition shadow-md shadow-amber-600/30">Get Free Estimate</a>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-6 py-14 space-y-16">
+        <div class="text-center max-w-3xl mx-auto space-y-3">
+            <span class="text-xs font-mono font-bold text-amber-600 uppercase tracking-widest block">Design-to-Build Framework</span>
+            <h1 class="text-4xl sm:text-5xl font-bold font-heading text-slate-900 tracking-tight">Engineering <span class="text-amber-600">Solutions</span></h1>
+            <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+                Tailored engineering architectures designed to eliminate factory-floor delays, streamline fabrication welding, and optimize sheet metal forming.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div id="dfm" class="bg-white border border-slate-200 rounded-3xl p-8 space-y-4 shadow-sm">
+                <span class="text-amber-600 font-mono text-xl font-bold">SOLUTION 01</span>
+                <h3 class="text-2xl font-bold font-heading text-slate-900">Design for Manufacturing (DFM & DFA)</h3>
+                <p class="text-sm text-slate-600 leading-relaxed">We audit every part for CNC tool reach, minimum bend radiuses, standardized hole thread taps, and automated fastener access to eliminate costly machining rework.</p>
+            </div>
+
+            <div id="fixtures" class="bg-white border border-slate-200 rounded-3xl p-8 space-y-4 shadow-sm">
+                <span class="text-amber-600 font-mono text-xl font-bold">SOLUTION 02</span>
+                <h3 class="text-2xl font-bold font-heading text-slate-900">Robotic Jigs & Clamping Fixtures</h3>
+                <p class="text-sm text-slate-600 leading-relaxed">Custom kinematic fixture assemblies with quick-release toggle clamps, locating dowels, and wear-resistant hardened steel inserts tailored for automated production cells.</p>
+            </div>
+
+            <div id="sheet-metal" class="bg-white border border-slate-200 rounded-3xl p-8 space-y-4 shadow-sm">
+                <span class="text-amber-600 font-mono text-xl font-bold">SOLUTION 03</span>
+                <h3 class="text-2xl font-bold font-heading text-slate-900">Precision Sheet Metal Enclosures</h3>
+                <p class="text-sm text-slate-600 leading-relaxed">Accurate K-factor flat pattern development for brake press forming, corner seam relief notches, PEM stud hardware integration, and IP-rated gasket tracks.</p>
+            </div>
+
+            <div id="weldments" class="bg-white border border-slate-200 rounded-3xl p-8 space-y-4 shadow-sm">
+                <span class="text-amber-600 font-mono text-xl font-bold">SOLUTION 04</span>
+                <h3 class="text-2xl font-bold font-heading text-slate-900">Structural Skid Baseframes & Weldments</h3>
+                <p class="text-sm text-slate-600 leading-relaxed">Heavy-duty structural channel, I-beam, and tubular steel frame designs complete with weld symbols, cut lists, lifting lug load calculations, and deflection analysis.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-[#030914] text-slate-400 text-xs py-12 border-t border-slate-800 text-center">
+        <p>&copy; 2026 ApexMech Engineering Solutions. All rights reserved. Madhapur, Hyderabad, India.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
