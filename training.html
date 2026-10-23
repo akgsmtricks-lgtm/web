@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ApexMech CAD Academy — Professional Engineering Training</title>
+    <title>Automotive Engineering & Design Master Program — ApexMech CAD Academy</title>
+    
+    <!-- Tailwind CSS Engine -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -24,14 +26,17 @@
 </head>
 <body class="bg-[#fcfdfd] text-slate-800 antialiased selection:bg-amber-600 selection:text-white pt-28">
 
+    <!-- Telemetry Status Bar -->
     <div class="bg-navyPrimary border-b border-navySecondary text-slate-300 text-[11px] font-mono py-1.5 px-6 fixed top-0 left-0 right-0 z-50 flex justify-between items-center backdrop-blur-md">
         <div class="flex items-center space-x-4">
-            <span class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>APEXMECH CAD ACADEMY &bull; HYDERABAD</span>
-            <span class="hidden sm:inline text-slate-400">| PRACTICAL INDUSTRY WORKSHOPS</span>
+            <span class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>ACADEMY BATCH ENROLLMENT OPEN</span>
+            <span class="hidden sm:inline text-slate-400">| APEXMECH CAD LAB &bull; HYDERABAD</span>
+            <span class="hidden md:inline text-slate-400">| AUTOMOTIVE OEM STANDARD CURRICULUM</span>
         </div>
-        <span class="text-amber-400 font-semibold tracking-wide hidden sm:inline">CALL: +91 8019785587</span>
+        <span class="text-amber-400 font-semibold tracking-wide hidden sm:inline">ACADEMY DESK: +91 8019785587</span>
     </div>
 
+    <!-- Header Navigation Bar -->
     <header class="fixed top-[32px] left-0 right-0 z-40 bg-navyPrimary/95 backdrop-blur-md border-b border-navySecondary shadow-md">
         <div class="max-w-[1540px] mx-auto px-4 lg:px-6 h-20 flex items-center justify-between gap-3">
             <a href="index.html" class="flex items-center gap-3">
@@ -41,6 +46,7 @@
                     <span class="text-[9px] uppercase tracking-widest text-slate-400 font-mono">Engineering Design Studio</span>
                 </div>
             </a>
+            
             <nav class="hidden xl:flex items-center space-x-1 2xl:space-x-3 text-[13px] font-medium text-slate-200">
                 <a href="index.html" class="px-2.5 py-2 hover:text-amber-400 transition">Home</a>
                 <a href="about.html" class="px-2.5 py-2 hover:text-amber-400 transition">About Us</a>
@@ -53,48 +59,312 @@
                 <a href="careers.html" class="px-2.5 py-2 hover:text-amber-400 transition">Careers</a>
                 <a href="contact.html" class="px-2.5 py-2 hover:text-amber-400 transition">Contact</a>
             </nav>
-            <a href="index.html#inquiry" class="hidden sm:inline-flex px-4 py-2.5 text-xs font-semibold rounded-lg bg-amber-600 text-white hover:bg-amber-500 transition shadow-md shadow-amber-600/30">Get Free Estimate</a>
+
+            <a href="#enroll" class="hidden sm:inline-flex px-4 py-2.5 text-xs font-semibold rounded-lg bg-amber-600 text-white hover:bg-amber-500 transition shadow-md shadow-amber-600/30">
+                Enroll in Program
+            </a>
         </div>
     </header>
 
-    <main class="max-w-7xl mx-auto px-6 py-14 space-y-16">
-        <div class="text-center max-w-3xl mx-auto space-y-3">
-            <span class="text-xs font-mono font-bold text-amber-600 uppercase tracking-widest block">Hands-on Engineering Mentorship</span>
-            <h1 class="text-4xl sm:text-5xl font-bold font-heading text-slate-900 tracking-tight">ApexMech <span class="text-amber-600">CAD Academy</span></h1>
-            <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
-                Taught directly by practicing mechanical design engineers in Hyderabad. Master real-world shop blueprints, parametric solid modeling, and GD&T tolerancing conventions.
+    <main class="max-w-7xl mx-auto px-6 py-14 space-y-20">
+
+        <!-- Program Hero Section -->
+        <div class="text-center max-w-4xl mx-auto space-y-4">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-amber-500/40 bg-amber-500/10 text-amber-700 text-xs font-mono font-medium">
+                <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                <span>Automotive Industry Design Track &bull; 100% Practical Project-Driven</span>
+            </div>
+            <h1 class="text-4xl sm:text-5xl font-bold font-heading text-slate-900 tracking-tight leading-tight">
+                Automotive Engineering & <span class="text-amber-600">Product Design Master Program</span>
+            </h1>
+            <p class="text-slate-600 text-sm sm:text-base max-w-3xl mx-auto leading-relaxed">
+                A comprehensive curriculum engineered for mechanical and automotive graduates to master Vehicle Architecture, CATIA with AI integration, BIW, Automotive Plastics, Wiring Harness, Reverse Engineering, FEA, CFD, and Crashworthiness.
             </p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div id="solidworks" class="bg-white border border-slate-200 rounded-2xl p-6 space-y-3">
-                <span class="text-amber-600 font-mono text-xl font-bold">PROGRAM 01</span>
-                <h4 class="text-lg font-bold font-heading text-slate-900">SolidWorks Professional</h4>
-                <p class="text-xs text-slate-600 leading-relaxed">Parametric parts, multi-body assemblies, sheet metal K-factors, weldment cut lists, and exploded animations.</p>
-            </div>
-
-            <div id="autocad" class="bg-white border border-slate-200 rounded-2xl p-6 space-y-3">
-                <span class="text-amber-600 font-mono text-xl font-bold">PROGRAM 02</span>
-                <h4 class="text-lg font-bold font-heading text-slate-900">AutoCAD Mechanical Drafting</h4>
-                <p class="text-xs text-slate-600 leading-relaxed">General arrangement (GA) drawings, manufacturing detail blueprints, title block conventions, and layer standardization.</p>
-            </div>
-
-            <div id="gdt" class="bg-white border border-slate-200 rounded-2xl p-6 space-y-3">
-                <span class="text-amber-600 font-mono text-xl font-bold">PROGRAM 03</span>
-                <h4 class="text-lg font-bold font-heading text-slate-900">ASME GD&T Practical Masterclass</h4>
-                <p class="text-xs text-slate-600 leading-relaxed">Datum selection, position tolerance, MMC/LMC material condition modifiers, runout, and feature control frames.</p>
-            </div>
-
-            <div id="creo-catia" class="bg-white border border-slate-200 rounded-2xl p-6 space-y-3">
-                <span class="text-amber-600 font-mono text-xl font-bold">PROGRAM 04</span>
-                <h4 class="text-lg font-bold font-heading text-slate-900">Industrial Creo & CATIA</h4>
-                <p class="text-xs text-slate-600 leading-relaxed">Advanced class-A surface modeling, automotive harness routing, and kinematic linkage analysis for OEM production.</p>
+            <div class="pt-4 flex flex-wrap justify-center gap-4 text-xs font-mono">
+                <span class="bg-slate-100 text-slate-700 px-4 py-2 rounded-lg border border-slate-200">⏱ Duration: 16 Weeks</span>
+                <span class="bg-slate-100 text-slate-700 px-4 py-2 rounded-lg border border-slate-200">🛠 Tooling: CATIA V5/3DEXPERIENCE & AI Tools</span>
+                <span class="bg-slate-100 text-slate-700 px-4 py-2 rounded-lg border border-slate-200">📍 Hyderabad Lab / Hybrid</span>
             </div>
         </div>
+
+        <!-- Master Curriculum Modules Grid -->
+        <div class="space-y-10">
+            <div class="border-b border-slate-200 pb-4">
+                <span class="text-xs font-mono font-bold text-amber-600 uppercase tracking-widest block">Syllabus Breakdown</span>
+                <h2 class="text-2xl sm:text-3xl font-bold font-heading text-slate-900 mt-1">Automotive Core Modules</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Module 1: Fundamentals of Automobile Design -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-7 flex flex-col justify-between hover:shadow-xl hover:border-amber-400 transition">
+                    <div class="space-y-4">
+                        <div class="w-10 h-10 rounded-xl bg-amber-50 border border-amber-200 flex items-center justify-center text-amber-600 font-mono font-bold text-base">01</div>
+                        <h3 class="text-lg font-bold font-heading text-slate-900">Fundamentals of Automobile Design</h3>
+                        <p class="text-xs text-slate-500 leading-relaxed">Understanding the automotive ecosystem, vehicle layout architectures, and development lifecycle.</p>
+                        <ul class="text-xs font-mono text-slate-600 space-y-2 pt-3 border-t border-slate-100">
+                            <li>&bull; Introduction to Automotive Industry</li>
+                            <li>&bull; Evolution of Vehicles & Mobility</li>
+                            <li>&bull; Vehicle Architecture & Layouts</li>
+                            <li>&bull; Product Development Cycle</li>
+                            <li>&bull; Vehicle Packaging & Ergonomics</li>
+                            <li>&bull; Design Standards & Industry Practices</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Module 2: CATIA for Automotive Design with AI -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-7 flex flex-col justify-between hover:shadow-xl hover:border-amber-400 transition">
+                    <div class="space-y-4">
+                        <div class="w-10 h-10 rounded-xl bg-amber-50 border border-amber-200 flex items-center justify-center text-amber-600 font-mono font-bold text-base">02</div>
+                        <h3 class="text-lg font-bold font-heading text-slate-900">CATIA for Automotive Design with AI</h3>
+                        <p class="text-xs text-slate-500 leading-relaxed">Advanced parametric solid and surface modeling augmented with AI design workflows.</p>
+                        <ul class="text-xs font-mono text-slate-600 space-y-2 pt-3 border-t border-slate-100">
+                            <li>&bull; CATIA Interface & Workbench</li>
+                            <li>&bull; Sketch Creation & Parametric Modeling</li>
+                            <li>&bull; Solid Modeling Techniques</li>
+                            <li>&bull; Generative Surface Modeling</li>
+                            <li>&bull; Assembly Design & Clash Analysis</li>
+                            <li>&bull; Drafting & Drawing Creation</li>
+                            <li>&bull; Design Modifications & Best Practices</li>
+                            <li>&bull; AI Integration & Workflow Automation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Module 3: Automotive BIW Design -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-7 flex flex-col justify-between hover:shadow-xl hover:border-amber-400 transition">
+                    <div class="space-y-4">
+                        <div class="w-10 h-10 rounded-xl bg-amber-50 border border-amber-200 flex items-center justify-center text-amber-600 font-mono font-bold text-base">03</div>
+                        <h3 class="text-lg font-bold font-heading text-slate-900">Automotive BIW Design</h3>
+                        <p class="text-xs text-slate-500 leading-relaxed">Sheet metal car body structure engineering, welding joints, and reinforcements.</p>
+                        <ul class="text-xs font-mono text-slate-600 space-y-2 pt-3 border-t border-slate-100">
+                            <li>&bull; Introduction to Body in White (BIW)</li>
+                            <li>&bull; Sheet Metal Design Fundamentals</li>
+                            <li>&bull; Body Structure Components</li>
+                            <li>&bull; Mounting & Reinforcements</li>
+                            <li>&bull; Joining Concepts (Spot, Laser, Adhesive)</li>
+                            <li>&bull; BIW Assemblies & Master Sections</li>
+                            <li>&bull; Manufacturing & Stamping Considerations</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Module 4: Automotive Plastics Design -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-7 flex flex-col justify-between hover:shadow-xl hover:border-amber-400 transition">
+                    <div class="space-y-4">
+                        <div class="w-10 h-10 rounded-xl bg-amber-50 border border-amber-200 flex items-center justify-center text-amber-600 font-mono font-bold text-base">04</div>
+                        <h3 class="text-lg font-bold font-heading text-slate-900">Automotive Plastics Design</h3>
+                        <p class="text-xs text-slate-500 leading-relaxed">Interior and exterior trim engineering, tooling clearance, and injection molding rules.</p>
+                        <ul class="text-xs font-mono text-slate-600 space-y-2 pt-3 border-t border-slate-100">
+                            <li>&bull; Interior & Exterior Trim Components</li>
+                            <li>&bull; Plastic Design Rules & Wall Thickness</li>
+                            <li>&bull; Tooling Direction Definition</li>
+                            <li>&bull; Draft Analysis & Undercut Detection</li>
+                            <li>&bull; Ribs, Bosses & Snap Features</li>
+                            <li>&bull; Manufacturability & Moldability Concepts</li>
+                            <li>&bull; Trim Assemblies & Clamping</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Module 5: Electrical Harness Design -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-7 flex flex-col justify-between hover:shadow-xl hover:border-amber-400 transition">
+                    <div class="space-y-4">
+                        <div class="w-10 h-10 rounded-xl bg-amber-50 border border-amber-200 flex items-center justify-center text-amber-600 font-mono font-bold text-base">05</div>
+                        <h3 class="text-lg font-bold font-heading text-slate-900">Electrical Harness Design</h3>
+                        <p class="text-xs text-slate-500 leading-relaxed">3D electrical bundle routing, connector packaging, and 2D harness flattening.</p>
+                        <ul class="text-xs font-mono text-slate-600 space-y-2 pt-3 border-t border-slate-100">
+                            <li>&bull; Automotive Electrical Systems Basics</li>
+                            <li>&bull; Harness 3D Routing Concepts</li>
+                            <li>&bull; Connectors, Grommets & Retaining Clips</li>
+                            <li>&bull; Packaging & Thermal Clearance Standards</li>
+                            <li>&bull; Flattening Drawings for Shop Assembly</li>
+                            <li>&bull; Electrical Documentation & Wire BOM</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Module 6: Reverse Engineering -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-7 flex flex-col justify-between hover:shadow-xl hover:border-amber-400 transition">
+                    <div class="space-y-4">
+                        <div class="w-10 h-10 rounded-xl bg-amber-50 border border-amber-200 flex items-center justify-center text-amber-600 font-mono font-bold text-base">06</div>
+                        <h3 class="text-lg font-bold font-heading text-slate-900">Reverse Engineering</h3>
+                        <p class="text-xs text-slate-500 leading-relaxed">Reconstructing parametric CAD data from laser scan point-clouds and physical components.</p>
+                        <ul class="text-xs font-mono text-slate-600 space-y-2 pt-3 border-t border-slate-100">
+                            <li>&bull; Introduction to Reverse Engineering</li>
+                            <li>&bull; Scan Data Import & Clean-up</li>
+                            <li>&bull; CAD Reconstruction (STL to Solid)</li>
+                            <li>&bull; Class-A Surface Recreation</li>
+                            <li>&bull; Model Optimization & Shrinkage Correction</li>
+                            <li>&bull; Legacy Part Redesign</li>
+                            <li>&bull; Design Improvement Workflows</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Module 7: CAE & FEA -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-7 flex flex-col justify-between hover:shadow-xl hover:border-amber-400 transition">
+                    <div class="space-y-4">
+                        <div class="w-10 h-10 rounded-xl bg-amber-50 border border-amber-200 flex items-center justify-center text-amber-600 font-mono font-bold text-base">07</div>
+                        <h3 class="text-lg font-bold font-heading text-slate-900">CAE & FEA Simulation</h3>
+                        <p class="text-xs text-slate-500 leading-relaxed">Structural stress analysis, mesh optimization, and natural frequency verification.</p>
+                        <ul class="text-xs font-mono text-slate-600 space-y-2 pt-3 border-t border-slate-100">
+                            <li>&bull; Introduction to CAE & FEA Principles</li>
+                            <li>&bull; Workbench Interface & Boundary Conditions</li>
+                            <li>&bull; Material Properties & Non-linear Curves</li>
+                            <li>&bull; 2D Shell & 3D Tetra Meshing Techniques</li>
+                            <li>&bull; Mesh Quality & Convergence Optimization</li>
+                            <li>&bull; Static Structural Stress Analysis</li>
+                            <li>&bull; Stress (Von Mises) & Deformation Results</li>
+                            <li>&bull; Modal Analysis & Natural Frequencies</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Module 8: Automotive CFD & Aerodynamics -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-7 flex flex-col justify-between hover:shadow-xl hover:border-amber-400 transition">
+                    <div class="space-y-4">
+                        <div class="w-10 h-10 rounded-xl bg-amber-50 border border-amber-200 flex items-center justify-center text-amber-600 font-mono font-bold text-base">08</div>
+                        <h3 class="text-lg font-bold font-heading text-slate-900">Automotive CFD & Aerodynamics</h3>
+                        <p class="text-xs text-slate-500 leading-relaxed">Aerodynamic vehicle profiling, internal cabin ducting, and radiator cooling airflow.</p>
+                        <ul class="text-xs font-mono text-slate-600 space-y-2 pt-3 border-t border-slate-100">
+                            <li>&bull; Fundamentals of Fluid Dynamics</li>
+                            <li>&bull; External Vehicle Aerodynamics (Cd Optimization)</li>
+                            <li>&bull; Internal HVAC & Duct Flow Concepts</li>
+                            <li>&bull; Drag & Lift Coefficient Evaluation</li>
+                            <li>&bull; Underhood Cooling Airflow Concepts</li>
+                            <li>&bull; Aerodynamic Performance Evaluation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Module 9: Crash Analysis Fundamentals -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-7 flex flex-col justify-between hover:shadow-xl hover:border-amber-400 transition">
+                    <div class="space-y-4">
+                        <div class="w-10 h-10 rounded-xl bg-amber-50 border border-amber-200 flex items-center justify-center text-amber-600 font-mono font-bold text-base">09</div>
+                        <h3 class="text-lg font-bold font-heading text-slate-900">Crash Analysis Fundamentals</h3>
+                        <p class="text-xs text-slate-500 leading-relaxed">Structural crashworthiness, dynamic impact loads, and occupant safety envelope design.</p>
+                        <ul class="text-xs font-mono text-slate-600 space-y-2 pt-3 border-t border-slate-100">
+                            <li>&bull; Introduction to Crashworthiness (NCAP / ECE)</li>
+                            <li>&bull; Frontal, Side & Rear Impact Load Cases</li>
+                            <li>&bull; Energy Absorption Concepts & Crush Cans</li>
+                            <li>&bull; Passenger Cell Structural Safety</li>
+                            <li>&bull; Explicit Dynamic Simulation Workflows</li>
+                            <li>&bull; Automotive Safety Design Concepts</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Capstone Projects Section -->
+        <div class="p-8 sm:p-12 rounded-3xl bg-navyPrimary text-white space-y-8">
+            <div class="border-b border-slate-700/80 pb-4">
+                <span class="text-amber-400 font-mono text-xs uppercase tracking-widest block font-bold">Hands-On Portfolio Requirements</span>
+                <h2 class="text-2xl sm:text-3xl font-bold font-heading text-white mt-1">Industry Capstone Projects</h2>
+                <p class="text-slate-300 text-xs sm:text-sm mt-1">Every trainee independently completes and documents these 5 industrial projects under engineer mentorship.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <div class="p-6 rounded-2xl bg-navySecondary/60 border border-slate-700/60 space-y-3">
+                    <span class="text-amber-400 font-mono text-xs font-bold block">PROJECT 01</span>
+                    <h4 class="text-base font-bold font-heading text-white">BIW Hood Panel Design Using Master-Section</h4>
+                    <p class="text-xs text-slate-300 leading-relaxed">Developing the outer panel, inner reinforcement panel with embossments, latch/striker reinforcement, and hinge assembly based on OEM master-sections.</p>
+                </div>
+
+                <div class="p-6 rounded-2xl bg-navySecondary/60 border border-slate-700/60 space-y-3">
+                    <span class="text-amber-400 font-mono text-xs font-bold block">PROJECT 02</span>
+                    <h4 class="text-base font-bold font-heading text-white">Plastic Door Trim Assembly Design</h4>
+                    <p class="text-xs text-slate-300 leading-relaxed">Creating injection-molded automotive door cards complete with dog houses, heat stakes, snaps, push clips, and tooling draft verification.</p>
+                </div>
+
+                <div class="p-6 rounded-2xl bg-navySecondary/60 border border-slate-700/60 space-y-3">
+                    <span class="text-amber-400 font-mono text-xs font-bold block">PROJECT 03</span>
+                    <h4 class="text-base font-bold font-heading text-white">Electrical Harness Layout</h4>
+                    <p class="text-xs text-slate-300 leading-relaxed">Routing a multi-branch engine bay wiring bundle in 3D CAD, defining sheet metal retaining clips, and generating flattened 2D manufacturing drawings.</p>
+                </div>
+
+                <div class="p-6 rounded-2xl bg-navySecondary/60 border border-slate-700/60 space-y-3">
+                    <span class="text-amber-400 font-mono text-xs font-bold block">PROJECT 04</span>
+                    <h4 class="text-base font-bold font-heading text-white">Aerodynamic Study of Vehicle Body</h4>
+                    <p class="text-xs text-slate-300 leading-relaxed">Executing virtual wind-tunnel flow simulation over a sedan/SUV body to identify wake separation regions, vortex paths, and optimize coefficient of drag (Cd).</p>
+                </div>
+
+                <div class="p-6 rounded-2xl bg-navySecondary/60 border border-slate-700/60 space-y-3 md:col-span-2 lg:col-span-2">
+                    <span class="text-amber-400 font-mono text-xs font-bold block">PROJECT 05</span>
+                    <h4 class="text-base font-bold font-heading text-white">Production Drawings for Automotive Assemblies</h4>
+                    <p class="text-xs text-slate-300 leading-relaxed">Producing complete ASME Y14.5M compliant 2D workshop manufacturing blueprints with comprehensive GD&T feature control frames, surface finish callouts, and indented Bill of Materials (BOM).</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Enrollment & Inquiry Dispatch Form -->
+        <section id="enroll" class="py-12">
+            <div class="max-w-4xl mx-auto bg-white border border-slate-200 rounded-3xl p-8 sm:p-12 shadow-xl space-y-6">
+                <div class="text-center space-y-2">
+                    <span class="text-xs font-mono font-bold text-amber-600 uppercase tracking-widest block">Start Your Automotive Career</span>
+                    <h3 class="text-2xl sm:text-3xl font-bold font-heading text-slate-900">Apply for Program Admission / Syllabus Pack</h3>
+                    <p class="text-slate-500 text-xs sm:text-sm">Submit your background details. Our academy training coordinators will get in touch with schedule and fee details.</p>
+                </div>
+
+                <form id="project-form" class="space-y-5 pt-4">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                        <div>
+                            <label for="form-name" class="block text-xs font-semibold text-slate-700 uppercase font-mono mb-2">Full Name</label>
+                            <input type="text" id="form-name" placeholder="John Doe" required class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-slate-900 text-sm focus:outline-none focus:border-amber-500 transition">
+                        </div>
+                        <div>
+                            <label for="form-email" class="block text-xs font-semibold text-slate-700 uppercase font-mono mb-2">Email Address</label>
+                            <input type="email" id="form-email" placeholder="john@example.com" required class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-slate-900 text-sm focus:outline-none focus:border-amber-500 transition">
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                        <div>
+                            <label for="form-service" class="block text-xs font-semibold text-slate-700 uppercase font-mono mb-2">Program Selection</label>
+                            <select id="form-service" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-slate-900 text-sm focus:outline-none focus:border-amber-500 transition">
+                                <option>Automotive Engineering & Design Master Program (Full Track)</option>
+                                <option>Automotive BIW Design Specialization</option>
+                                <option>Automotive Plastics & Trim Specialization</option>
+                                <option>CATIA Automotive with AI Integration</option>
+                                <option>Automotive CAE, FEA & Crashworthiness</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="form-urgency" class="block text-xs font-semibold text-slate-700 uppercase font-mono mb-2">Mode & Cohort Timing</label>
+                            <select id="form-urgency" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-slate-900 text-sm font-mono focus:outline-none focus:border-amber-500 transition">
+                                <option>Upcoming Weekday Batch (Offline - Hyderabad Lab)</option>
+                                <option>Upcoming Weekend Batch (Working Professionals)</option>
+                                <option>Live Instructor-Led Hybrid / Online</option>
+                                <option>College Corporate / Institutional Batch</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="form-message" class="block text-xs font-semibold text-slate-700 uppercase font-mono mb-2">Educational Background & Learning Goals</label>
+                        <textarea id="form-message" rows="4" placeholder="Mention your qualification (e.g. B.Tech Mechanical / Automobile), CAD software experience, and specific career goals..." required class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-slate-900 text-sm focus:outline-none focus:border-amber-500 transition"></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full py-4 rounded-xl bg-amber-600 text-white font-semibold text-sm hover:bg-amber-500 transition shadow-lg shadow-amber-600/30 flex items-center justify-center gap-2">
+                        <span>Submit Admission Application to Academy Desk</span>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </button>
+                </form>
+            </div>
+        </section>
+
     </main>
 
-    <footer class="bg-[#030914] text-slate-400 text-xs py-12 border-t border-slate-800 text-center">
-        <p>&copy; 2026 ApexMech Engineering Solutions. All rights reserved. Madhapur, Hyderabad, India.</p>
+    <!-- Footer -->
+    <footer id="contact" class="bg-[#030914] text-slate-400 text-xs py-12 border-t border-slate-800 text-center">
+        <div class="max-w-7xl mx-auto px-6">
+            <p>&copy; 2026 ApexMech Engineering Solutions. All rights reserved. Madhapur, Hyderabad, India.</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
